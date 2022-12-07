@@ -11,4 +11,12 @@ Você terá 3 variáveis. Sendo ela:
 Imprima no console o valor que será gasto para realizar essa viagem.
 */
 
-console.log('Olá')
+const precoCombustivel = 5.79;
+const Km_por_litro = 7;
+const distanciaViagemKm = 100; 
+
+const valorGasto = (distanciaViagemKm/Km_por_litro)*precoCombustivel;
+
+console.log('O valor gasto nessa viagem é de : R$ ' + valorGasto.toFixed(2)); //tofixed() casas decimais 
+
+
