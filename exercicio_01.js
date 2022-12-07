@@ -15,14 +15,14 @@ Classificação :
 
 const nota1 = 8;
 const nota2 = 8;
-const nota3 = 8;
+const nota3 = 7;
 
 const media = (nota1 + nota2 + nota3) / 3;
 
 if (media < 5) {
-    console.log('O aluno está reprovado !')
+    console.log('O aluno está reprovado ! Sua média foi : ' + media.toFixed(2) + '.')
 } else if (media >= 5 && media <= 7) {
-    console.log('O aluno está de recuperação !')
+    console.log('O aluno está de recuperação ! Sua média foi : ' + media.toFixed(2) + '.')
 } else {
-    console.log('O aluno está aprovado !')
+    console.log('O aluno está aprovado ! Sua média foi : ' + media.toFixed(2) + '.')
 }
