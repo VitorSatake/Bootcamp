@@ -23,11 +23,11 @@ Código Condição de Pagamento:
  //const 3 = preco + (preco*0.1);
 
  if (formaPag === 1) {
-    console.log('O preço a ser pago é : ' + (preco - (preco*0.1)).toFixed(2) + '.')
+    console.log('O preço a ser pago é : ' + (preco - (preco*0.1)).toFixed(2) + '.');
  } else if (formaPag === 2) {
-    console.log('O preço a ser pago é : ' + (preco - (preco*0.15)).toFixed(2) + '.')
+    console.log('O preço a ser pago é : ' + (preco - (preco*0.15)).toFixed(2) + '.');
  } else if (formaPag === 3) {
-    console.log('O preço a ser pago é : ' + preco.toFixed(2) + '.')
+    console.log('O preço a ser pago é : ' + preco.toFixed(2) + '.');
  } else {
-    console.log('O preço a ser pago é : ' + (preco + (preco*0.1)).toFixed(2) + '.')
+    console.log('O preço a ser pago é : ' + (preco + (preco*0.1)).toFixed(2) + '.');
  }
