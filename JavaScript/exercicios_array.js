@@ -6,11 +6,15 @@ for (let i = 1; i <= 10; i++) { // for para percorrer o array notas e somar seus
     console.log(mult.toFixed(2)); 
 }
 
-// 2 - Crie um programa que seja capaz de percorrer uma lista de numeros e imprima cada numero encontrado
+// 2 - Crie um programa que seja capaz de percorrer uma lista de numeros e imprima cada numero par encontrado
 
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 for (let i = 0; i < numeros.length; i++) {
-    const imprimir = numeros[i];
-    console.log(imprimir);
+    const numero = numeros[i];
+    //const numeroPar = (numero[i] % 2) === 0;
+    if (numero % 2 === 0) {
+        console.log(numero);
+    }
+    
 }
