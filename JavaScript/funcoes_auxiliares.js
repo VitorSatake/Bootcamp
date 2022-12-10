@@ -1,8 +1,14 @@
 
 // Exportação das funçoes
 
+
+const entradas = [5, 50, 10, 98, 23];
+let i = 0;
+
 function gets() {
-        return 10;
+    const valor = entradas[i];
+    i = i + 1; // ou i++
+    return valor;
 }
 
 
