@@ -1,3 +1,4 @@
+package edu.aluno.segundasemana;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package edu.aluno.primeirasemana;
+
 public class MinhaClasse { // corpo da classe
 
 
