@@ -1,6 +1,6 @@
+*
 
-
-.vscode/*
-.bin/*
-.lib/*
-.settings.json/*
+.vscode
+.bin
+.lib
+.settings.json
